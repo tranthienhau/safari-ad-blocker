@@ -1,0 +1,67 @@
+[
+  {
+    "trigger": { "url-filter": "google-analytics\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "googletagmanager\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "facebook\\.com\\/tr" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "connect\\.facebook\\.net\\/en_US\\/fbevents" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "hotjar\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "mixpanel\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "segment\\.com\\/analytics" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "amplitude\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "fullstory\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "clarity\\.ms" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "newrelic\\.com\\/nr-" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "sentry\\.io\\/api" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "bat\\.bing\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "snap\\.licdn\\.com\\/li\\.lms-analytics" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "resource-type": ["script"],
+      "load-type": ["third-party"],
+      "if-domain": ["*analytics.google.com"]
+    },
+    "action": { "type": "block" }
+  }
+]

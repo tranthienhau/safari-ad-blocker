@@ -1,0 +1,42 @@
+[
+  {
+    "trigger": { "url-filter": ".*" },
+    "action": { "type": "css-display-none", "selector": ".cookie-banner, .cookie-consent, .cookie-notice, #cookie-banner, #cookie-consent" }
+  },
+  {
+    "trigger": { "url-filter": ".*" },
+    "action": { "type": "css-display-none", "selector": ".newsletter-popup, .newsletter-modal, .email-signup-popup" }
+  },
+  {
+    "trigger": { "url-filter": ".*" },
+    "action": { "type": "css-display-none", "selector": ".push-notification-prompt, .notification-permission" }
+  },
+  {
+    "trigger": { "url-filter": ".*" },
+    "action": { "type": "css-display-none", "selector": "#onetrust-banner-sdk, .onetrust-pc-dark-filter" }
+  },
+  {
+    "trigger": { "url-filter": ".*" },
+    "action": { "type": "css-display-none", "selector": ".cc-window, .cc-banner, #cookieconsent" }
+  },
+  {
+    "trigger": { "url-filter": "cookiebot\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "onetrust\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "trustarc\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "cookielaw\\.org" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "consensu\\.org" },
+    "action": { "type": "block" }
+  }
+]

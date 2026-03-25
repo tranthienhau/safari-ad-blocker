@@ -1,0 +1,50 @@
+[
+  {
+    "trigger": { "url-filter": "platform\\.twitter\\.com\\/widgets" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "connect\\.facebook\\.net.*\\/sdk" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "facebook\\.com\\/plugins" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "platform\\.linkedin\\.com\\/in\\.js" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "apis\\.google\\.com\\/js\\/plusone" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "pinterest\\.com\\/js\\/pinit" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "addthis\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "sharethis\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "resource-type": ["raw"],
+      "if-domain": ["*disqus.com"]
+    },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "resource-type": ["script"],
+      "if-domain": ["*addtoany.com"]
+    },
+    "action": { "type": "block" }
+  }
+]

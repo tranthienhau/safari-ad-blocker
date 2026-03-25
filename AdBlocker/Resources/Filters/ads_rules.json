@@ -1,0 +1,110 @@
+[
+  {
+    "trigger": { "url-filter": "doubleclick\\.net" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "googlesyndication\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "googleadservices\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "adservice\\.google\\." },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "pagead2\\.googlesyndication\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "ads\\.yahoo\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "advertising\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "ad\\.doubleclick\\.net" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "adnxs\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "adsrvr\\.org" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "amazon-adsystem\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "moatads\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "rubiconproject\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "pubmatic\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "openx\\.net" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "taboola\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "outbrain\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "criteo\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "bidswitch\\.net" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "casalemedia\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "smartadserver\\.com" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "adform\\.net" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": { "url-filter": "media\\.net" },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "resource-type": ["script"],
+      "if-domain": ["*ads.google.com"]
+    },
+    "action": { "type": "block" }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*\\/ads\\/.*",
+      "resource-type": ["image", "script"],
+      "load-type": ["third-party"]
+    },
+    "action": { "type": "block" }
+  }
+]
