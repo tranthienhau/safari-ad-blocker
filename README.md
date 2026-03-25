@@ -8,7 +8,7 @@ A native iOS Safari Content Blocker app built with **Swift 6**, **SwiftUI**, and
 |:------------------------:|
 | <img src="screenshots/safari_extension.png" width="300"/> |
 
-https://github.com/user-attachments/assets/demo.mp4
+https://github.com/tranthienhau/safari-ad-blocker/releases/download/v1.0.0/demo.mp4
 
 ## What This Demonstrates
 
