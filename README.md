@@ -2,15 +2,13 @@
 
 A native iOS Safari Content Blocker app built with **Swift 6**, **SwiftUI**, and **iOS 17+**, demonstrating modern Apple development patterns and the Safari Content Blocker API.
 
-## Demo
+## Demo & Screenshots
+
+| Safari Extension Enabled |
+|:------------------------:|
+| <img src="screenshots/safari_extension.png" width="300"/> |
 
 https://github.com/user-attachments/assets/demo.mp4
-
-## Screenshots
-
-| Home | Settings | Safari Extension |
-|:----:|:--------:|:----------------:|
-| <img src="screenshots/home.png" width="250"/> | <img src="screenshots/settings.png" width="250"/> | <img src="screenshots/safari_extension.png" width="250"/> |
 
 ## What This Demonstrates
 
